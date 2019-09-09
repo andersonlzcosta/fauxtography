@@ -12,3 +12,9 @@
 .banner .container .banner-text {
   color: white;
 }
+
+.container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
