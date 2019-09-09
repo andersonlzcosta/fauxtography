@@ -1,1 +1,14 @@
 // Specific CSS for your home-page
+.banner {
+  background-position: center;
+  background-size: cover;
+}
+
+.banner .container {
+  height: 100vh;
+
+}
+
+.banner .container .banner-text {
+  color: white;
+}
