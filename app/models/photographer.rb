@@ -4,4 +4,3 @@ class Photographer < ApplicationRecord
 end
 
 
-
