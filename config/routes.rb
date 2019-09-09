@@ -12,6 +12,3 @@ end
 
 
 
-  # resources :restaurants do
-  #   resources :reviews, only: [ :new, :create ]
-  # end
