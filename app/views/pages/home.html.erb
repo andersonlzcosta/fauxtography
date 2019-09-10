@@ -24,10 +24,13 @@
       <div class="banner-text col-lg-4 col-md-12 col-sm-12 my-5">
         <h1>FAUXTOGRAPHY</h1>
 
-        <% @photographers.each do |photographer| %>
-        <%= render 'photographers/card', photographer: photographer %>
-        <% end %>
       </div>
     </div>
+  </div>
+</div>
+  <div class="cards">
+  <% @photographers.each do |photographer| %>
+  <%= render 'photographers/card', photographer: photographer %>
+  <% end %>
   </div>
 </div>
