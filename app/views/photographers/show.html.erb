@@ -6,6 +6,7 @@
   </div>
 
   <div class="photo-cards">
+    <h2> Photos(<%= @photographer.pictures.count %>)
     <% @photographer.pictures.each do |picture|%>
     <%= render 'photo-card', picture: picture %>
     <% end %>
