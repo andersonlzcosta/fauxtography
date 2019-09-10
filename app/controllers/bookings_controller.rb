@@ -6,8 +6,10 @@ class BookingsController < ApplicationController
 
   def create
     @photographer = Photographer.find(params[:photographer_id])
+    @user = current_user
     @booking = Booking.new(booking_params)
     @booking.photographer = @photographer
+    @booking.user = @user
     if @booking.save
       redirect_to booking_path(@booking)
     else
