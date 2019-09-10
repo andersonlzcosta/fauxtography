@@ -1,29 +1,18 @@
 <%= link_to "< Go back to photographers", root_path %>
-<h1> <%= @photographer.name %> </h1>
-<p>
-  <%= @photographer.location %>
-  <%= @photographer.email %>
-  <%= @photographer.price_rate %>
-</p>
-
-<div>
-  <%  @photographer.pictures.each do |picture|%>
-    <div>
-      <%= image_tag (picture)%>
-    </div>
-  <% end %>
-</div>
-
-<%= render 'card' %>
 
 
+  <div>
+    <%= render 'photographer-intro-card' %>
+  </div>
 
-<div class="container-btn">
-<%= link_to "Book this Fauxtographer", new_photographer_booking_path(@photographer), class: 'btn btn-primary' %>
+  <div class="photo-cards">
+    <% @photographer.pictures.each do |picture|%>
+    <%= render 'photo-card', picture: picture %>
+    <% end %>
+  </div>
 
-<%# link_to "Back to all Fauxtographer", photographers_path, class: 'btn btn-primary' %>
-
-</div>
-
+  <div class="container-btn">
+    <%= link_to "Book this Fauxtographer", new_photographer_booking_path(@photographer), class: 'btn btn-primary' %>
+  </div>
 
 
