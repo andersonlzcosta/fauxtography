@@ -1,7 +1,12 @@
-<%= image_tag ("https://www.w3schools.com/howto/img_avatar.png")
- %>
-    <h4><b><%= @photographer.name %></b></h4>
-    <p>Architect & Engineer</p>
+
+  <div class="card-trip">
+    <img src="<%= photographer.pictures[1] %>" />
+    <div class="card-trip-infos">
+      <div>
+        <h2><%= photographer.style %></h2>
+         <p><%= photographer.location %></p>
+      </div>
+      <h2 class="card-trip-pricing"><%= photographer.price_rate %></h2>
+      <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar" />
+    </div>
   </div>
-</div>
- -->
