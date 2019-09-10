@@ -1,4 +1,4 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1393&q=80);">
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/1858161/pexels-photo-1858161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);">
   <div class="container d-flex align-items-center">
     <div class="row">
       <div class="card col-lg-6 col-md-12 col-sm-8 mx-5">
@@ -27,9 +27,11 @@
     </div>
   </div>
 </div>
-  <div class="cards">
-  <% @photographers.each do |photographer| %>
-  <%= render 'photographers/card', photographer: photographer %>
-  <% end %>
+  <div class="container">
+    <div class="cards">
+    <% @photographers.each do |photographer| %>
+    <%= render 'photographers/card', photographer: photographer %>
+    <% end %>
+    </div>
   </div>
 </div>
