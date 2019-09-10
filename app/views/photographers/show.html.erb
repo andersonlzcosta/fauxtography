@@ -7,7 +7,9 @@
 
 <div>
   <%  @photographer.pictures.each do |picture|%>
-    <p> display the picture in a caresoul?????? %></p>
+    <div>
+      <%= image_tag (picture)%>
+    </div>
   <% end %>
 </div>
 
@@ -19,4 +21,6 @@
 <%# link_to "Back to all Fauxtographer", photographers_path, class: 'btn btn-primary' %>
 
 </div>
+
+
 
