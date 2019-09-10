@@ -1,6 +1,8 @@
 class PhotographersController < ApplicationController
   def index
-    @photographers = Photographer.all
+    @photographers = Photographer.where(nil) # Creates an "all" scope
+    @photographers = @photographers.where("location ILIKE ?", "%#{params[:location]}%") if params[:location]
+    @photographers = @photographers.where("style ILIKE ?", "%#{params[:style]}%") if params[:style]
   end
 
   def show
