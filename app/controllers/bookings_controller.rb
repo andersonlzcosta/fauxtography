@@ -1,6 +1,15 @@
 class BookingsController < ApplicationController
+  def new
+    @photographer = Photographer.find(params[:photographer_id])
+    @booking = Booking.new
+  end
+
   def create
-    @booking = Booking.new(params[@booking])
+    @photographer = Photographer.find(params[:photographer_id])
+    @user = current_user
+    @booking = Booking.new(booking_params)
+    @booking.photographer = @photographer
+    @booking.user = @user
     if @booking.save
       redirect_to booking_path(@booking)
     else
@@ -8,11 +17,13 @@ class BookingsController < ApplicationController
     end
   end
 
-  def new
-    @booking = Booking.new
-  end
-
   def show
     @booking = Booking.find(params[:id])
+  end
+
+  private
+
+  def booking_params
+    params.require(:booking).permit(:date, :user_id)
   end
 end

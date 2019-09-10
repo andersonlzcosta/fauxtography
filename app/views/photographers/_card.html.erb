@@ -1,12 +1,11 @@
-
-  <div class="card-trip">
-    <img src="<%= photographer.pictures[1] %>" />
+<div class="card-trip">
+  <img src="<%= photographer.pictures[1] %>" />
     <div class="card-trip-infos">
       <div>
-        <h2><%= photographer.style %></h2>
-         <p><%= photographer.location %></p>
+        <h2><%= photographer.name %></h2>
+        <p><%= photographer.location %></p>
       </div>
-      <h2 class="card-trip-pricing"><%= photographer.price_rate %></h2>
-      <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar" />
+  <h2 class="card-trip-pricing"><%= photographer.price_rate %></h2>
+  <img src="<%= photographer.avatar %>" class="card-trip-user avatar" />
     </div>
-  </div>
+</div>

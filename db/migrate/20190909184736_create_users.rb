@@ -6,7 +6,6 @@ class CreateUsers < ActiveRecord::Migration[5.2]
       t.integer :price_rate
       t.string :availability
       t.string :location
-      t.string :name
       t.string :pictures, array: true
       t.string :type, default: 'User'
 
