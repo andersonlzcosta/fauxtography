@@ -1,8 +1,8 @@
-<h1> <%photographer.name %> </h1>
+<h1> <%= @photographer.name %> </h1>
 <p>
-  <% photographer.location %>
-  <% photographer.email %>
-  <% photographer.price_rate %>
+  <%= @photographer.location %>
+  <%= @photographer.email %>
+  <%= @photographer.price_rate %>
 </p>
 
 <div>
@@ -14,8 +14,9 @@
 
 
 <div class="container-btn">
-<%= link_to "Book this Fauxtographer", new_photographer_booking_path(@booking), class: 'btn btn-primary' %>
+<%# link_to "Book this Fauxtographer", new_photographer_booking_path(@booking), class: 'btn btn-primary' %>
 
-<%= link_to "Back to all Fauxtographer", photographers_path, class: 'btn btn-primary' %>
+<%# link_to "Back to all Fauxtographer", photographers_path, class: 'btn btn-primary' %>
 
 </div>
+
