@@ -25,6 +25,17 @@ ActiveRecord::Schema.define(version: 2019_09_10_202314) do
     t.index ["user_id"], name: "index_bookings_on_user_id"
   end
 
+  create_table "photographers", force: :cascade do |t|
+    t.string "style"
+    t.integer "price_rate"
+    t.string "availability"
+    t.string "location"
+    t.string "name"
+    t.string "pictures"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "style"
