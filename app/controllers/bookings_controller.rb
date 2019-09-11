@@ -11,7 +11,7 @@ class BookingsController < ApplicationController
     @booking.photographer = @photographer
     @booking.user = @user
     if @booking.save
-      redirect_to booking_path(@booking)
+      redirect_to root_path, notice: "CYRILLE'S THE BEST"
     else
       render :new
     end
