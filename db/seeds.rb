@@ -17,7 +17,7 @@ photographers_attributes = [
     avatar: "https://images.unsplash.com/profile-1539614238172-f895a9e1680c?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     location: "Rio de Janeiro",
     name: "Patrick T'Kindt",
-    pictures: ["https://static-gabimay.gcampaner.com.br/wp-content/uploads/2018/06/alicia_roddy-moda.png","https://images.unsplash.com/photo-1557977378-cac111538af8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=764&q=80" ],
+    pictures: ["https://static-gabimay.gcampaner.com.br/wp-content/uploads/2018/06/alicia_roddy-moda.png","https://images.unsplash.com/photo-1557977378-cac111538af8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=764&q=80", "https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" ],
   },
   {
     email: "fake2@gmail.com",
@@ -28,7 +28,7 @@ photographers_attributes = [
     avatar: "https://images.unsplash.com/profile-1536859233495-c3f81aec7271?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     location: "Rio de Janeiro",
     name: "Finn Hackshaw",
-    pictures:  ["https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
+    pictures:  ["https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
   },
   {
     email: "fake3@gmail.com",
@@ -50,7 +50,7 @@ photographers_attributes = [
     avatar: "https://images.unsplash.com/photo-1526383103106-edad26ae7572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=504&q=80",
     location: "Paris",
     name:"Daiga Ellaby",
-    pictures:  ["https://images.unsplash.com/photo-1563730373341-0a2b973a4a8a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1528743061033-811f9c409881?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1529421052258-e208c07eea78?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" ],
+    pictures:  ["https://images.unsplash.com/photo-1563730373341-0a2b973a4a8a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1528743061033-811f9c409881?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1529421052258-e208c07eea78?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" ],
   },
   {
     email: "fake5@gmail.com",
@@ -72,7 +72,7 @@ photographers_attributes = [
     avatar: "https://images.unsplash.com/profile-1508350886988-bd399de11640?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     location: "Rio de Janeiro",
     name:"Nicolas Ladino Silva",
-    pictures:  ["https://images.unsplash.com/photo-1542570029-d946ec8d2e14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1540134625958-2ef9474fa592?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1507415494092-319b49fe7fbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
+    pictures:  ["https://images.unsplash.com/photo-1542570029-d946ec8d2e14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1540134625958-2ef9474fa592?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1507415494092-319b49fe7fbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
   },
   {
     email: "fake7@gmail.com",
@@ -83,7 +83,7 @@ photographers_attributes = [
     avatar: "https://images.unsplash.com/profile-1477535811463-060f7dc7b10b?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     location: "Paris",
     name:"Jenni Jones",
-    pictures:  ["https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
+    pictures:  ["https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
   },
   {
     email: "fake8@gmail.com",
@@ -105,7 +105,7 @@ photographers_attributes = [
     avatar: "https://images.unsplash.com/photo-1528768382376-927ea58e99dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
     location: "Rio de Janeiro",
     name: "Trevor Rudy",
-    pictures:  ["https://images.unsplash.com/photo-1551489472-c71a03619a67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
+    pictures:  ["https://images.unsplash.com/photo-1551489472-c71a03619a67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
   },
   {
     email:"fake10@gmail.com",
@@ -116,7 +116,7 @@ photographers_attributes = [
     avatar: "https://images.unsplash.com/profile-1520602414155-aa0991584ca8?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     location:"Rio de Janeiro",
     name:"Tyler Nix",
-    pictures: ["https://images.unsplash.com/photo-1500483808507-66d90ee151b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
+    pictures: ["https://images.unsplash.com/photo-1500483808507-66d90ee151b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
   },
   {
     email:"fake11@gmail.com",
@@ -127,7 +127,7 @@ photographers_attributes = [
     avatar: "https://images.unsplash.com/profile-1541487830095-9b3b6143550e?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     location: "Los Angeles",
     name:"Matt Rader",
-    pictures: ["https://images.unsplash.com/photo-1559888828-551abffa1019?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
+    pictures: ["https://images.unsplash.com/photo-1559888828-551abffa1019?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
   },
   {
     email:"fake12@gmail.com",
@@ -138,7 +138,7 @@ photographers_attributes = [
     avatar: "https://images.unsplash.com/profile-1512090220603-62a1e16a3e24?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     location:"London",
     name:"Dom Hill",
-    pictures: ["https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
+    pictures: ["https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
   },
   {
     email:"fake13@gmail.com",
@@ -149,7 +149,7 @@ photographers_attributes = [
     avatar: "https://images.unsplash.com/profile-1504617136920-ca9cf3352021?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     location:"Paris",
     name: "Ahmed Carter",
-    pictures: ["https://images.unsplash.com/photo-1509631179647-0177331693ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"],
+    pictures: ["https://images.unsplash.com/photo-1509631179647-0177331693ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80","https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
   },
   {
     email:"fake14@gmail.com",
@@ -160,7 +160,7 @@ photographers_attributes = [
     avatar: "https://images.unsplash.com/profile-1488405107688-820fc77ff1bf?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     location: "Paris",
     name:"Calvin Lupiya",
-    pictures: ["https://images.unsplash.com/photo-1456885284447-7dd4bb8720bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
+    pictures: ["https://images.unsplash.com/photo-1456885284447-7dd4bb8720bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
   },
   {
     email:"fake15@gmail.com",
@@ -171,7 +171,7 @@ photographers_attributes = [
     avatar: "https://images.unsplash.com/profile-1541499455668-3a19737a038c?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     location:"Athens",
     name:"Tamara Bellis",
-    pictures: ["https://images.unsplash.com/photo-1514972796488-22a7d850cfb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
+    pictures: ["https://images.unsplash.com/photo-1514972796488-22a7d850cfb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
   },
   {
     email:"fake16@gmail.com",
@@ -182,7 +182,7 @@ photographers_attributes = [
     avatar: "https://images.unsplash.com/profile-1480826458532-c476edf63d0d?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     location: "London",
     name:"Nicole Geri",
-    pictures: ["https://images.unsplash.com/photo-1513379733131-47fc74b45fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
+    pictures: ["https://images.unsplash.com/photo-1513379733131-47fc74b45fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
   },
   {
     email:"fake17@gmail.com",
@@ -193,7 +193,7 @@ photographers_attributes = [
     avatar: "https://i.pinimg.com/564x/e4/fa/20/e4fa206bd13d67cf8d113954ec37e8ae.jpg",
     location: "London",
     name: "Anna Karenina",
-    pictures: ["https://static-gabimay.gcampaner.com.br/wp-content/uploads/2019/03/look-saia-de-cetim-onca.jpg"],
+    pictures: ["https://static-gabimay.gcampaner.com.br/wp-content/uploads/2019/03/look-saia-de-cetim-onca.jpg","https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
   },
   {
     email:"fake18@gmail.com",
@@ -204,7 +204,7 @@ photographers_attributes = [
     avatar: "https://static-gabimay.gcampaner.com.br/wp-content/uploads/2018/06/look-alicia_roddy-1.jpg",
     location:"London",
     name:"Paula Rudd",
-    pictures: ["https://i.pinimg.com/474x/c4/ee/48/c4ee484f91fcfa2de4afad6ace3e9b83.jpg"],
+    pictures: ["https://i.pinimg.com/474x/c4/ee/48/c4ee484f91fcfa2de4afad6ace3e9b83.jpg","https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
   }
 ]
 Photographer.create!(photographers_attributes)
