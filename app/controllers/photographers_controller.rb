@@ -7,5 +7,7 @@ class PhotographersController < ApplicationController
 
   def show
     @photographer = Photographer.find(params[:id])
+    @booking = Booking.new
   end
+
 end
