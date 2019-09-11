@@ -1,2 +1,18 @@
-<h1>Bookings#show</h1>
-<p>Find me in app/views/bookings/show.html.erb</p>
+<div>
+
+  <div class="confirmation center">
+    <div class="confirmation-content center">
+      <img src="https://media.giphy.com/media/l4HodBpDmoMA5p9bG/giphy.gif" alt="">
+      <h1>Congratulations!</h1>
+      <p> Are you as excited as her 👆 </p>
+
+      <p>You are booked for a photoshoot with <%= @photographer.name %></p>
+      <p>On <%= @booking.date %></p>
+    </div>
+  </div>
+
+  <div class="center">
+    <h3> Look at more of <%= link_to @photographer.name, photographer_path %>'s work </h3>
+  </div>
+</div>
+
