@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2019_09_11_144152) do
     t.integer "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "payment"
     t.index ["user_id"], name: "index_bookings_on_user_id"
   end
 
