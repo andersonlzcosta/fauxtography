@@ -1,28 +1,11 @@
 <div class="container mt-5">
-  <%= form_tag photographers_path, method: :get do %>
-    <%= text_field_tag :style,
-      params[:style],
-      class: "form-control",
-      placeholder: "Find a style"
-    %>
-    <br>
-    <%= text_field_tag :location,
-      params[:location],
-      class: "form-control",
-      placeholder: "Find a city"
-    %>
-    <br>
-    <%= submit_tag "Search", class: "btn btn-primary" %>
-  <% end %>
+  <%= render 'form' %>
+  <br>
   <div class="row">
-    <div class="col-sm-8 offset-sm-2">
-      <div id="movies">
-          <% @photographers.each do |photographer| %>
-          <h4><%= photographer.name %></h4>
-          <p><%= photographer.location %></p>
-          <p><%= photographer.style %></p>
-        <% end %>
-      </div>
+    <div class="cards">
+        <% @photographers.each do |photographer| %>
+        <%= render 'photographers/card', photographer: photographer %>
+      <% end %>
     </div>
   </div>
 </div>
