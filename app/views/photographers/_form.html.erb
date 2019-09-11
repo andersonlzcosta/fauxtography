@@ -1,14 +1,14 @@
 <%= form_tag photographers_path, method: :get do %>
   <div class="form-row d-flex justify-content-center">
-    <%= text_field_tag :style,
-      params[:style],
-      class: "form-control col-md-4 mr-3",
-      placeholder: "Find a style"
-    %>
     <%= text_field_tag :location,
       params[:location],
       class: "form-control col-md-4 mr-3",
       placeholder: "Find a city"
+    %>
+    <%= text_field_tag :style,
+      params[:style],
+      class: "form-control col-md-4 mr-3",
+      placeholder: "Find a style"
     %>
     <%= submit_tag "Search", class: "btn btn-primary align-items-center" %>
   </div>
