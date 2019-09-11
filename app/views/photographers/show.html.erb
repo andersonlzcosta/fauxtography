@@ -1,24 +1,34 @@
-<%= link_to "< Go back to photographers", root_path %>
-
-
-  <div>
-    <%= render 'photographer-intro-card' %>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://static-gabimay.gcampaner.com.br/wp-content/uploads/2018/06/alicia_roddy-moda.png);">
+  <div class="container">
+    <h1><%= @photographer.name %></h1>
+    <p><%= link_to "Go back to photographers", root_path, class: 'btn btn-primary' %>  <%= link_to "Book this Fauxtographer", new_photographer_booking_path(@photographer), class: 'btn btn-primary' %>
+     </p>
   </div>
+</div>
 
-  <div class="photo-cards">
-    <h2> Photos(<%= @photographer.pictures.count %>)
-    <% @photographer.pictures.each do |picture|%>
-    <%= render 'photo-card', picture: picture %>
-    <% end %>
-  </div>
+<div class="photographer-details">
+  <p><%= @photographer.location %></p>
+  <p><%= @photographer.email %></p>
+  <p>$<%= @photographer.price_rate %> per 15 edited photos</p>
+</div>
 
-  <div>
-    <%= render 'booking-form' %>
-  </div>
 
-  <div class="container-btn">
-    <%= link_to "Book this Fauxtographer", new_photographer_booking_path(@photographer), class: 'btn btn-primary' %>
-  </div>
+
+<div class="photo-cards">
+  <h2> Photos(<%= @photographer.pictures.count %>)
+  <% @photographer.pictures.each do |picture|%>
+  <%= render 'photo-card', picture: picture %>
+  <% end %>
+</div>
+
+<div>
+  <%= render 'booking-form' %>
+</div>
+
+
+
+
+
 
 
 
