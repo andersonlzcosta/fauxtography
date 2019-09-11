@@ -4,7 +4,6 @@
  grid-template-columns: 1fr 1fr 1fr 1fr;
  grid-gap: 16px;
  padding: 20px;
-
 }
 
 .photo-card-trip {
@@ -13,16 +12,19 @@
  box-shadow: 0 0 15px rgba(0,0,0,0.2);
  border-radius: 10px
 }
+
 .photo-card-trip > img {
  height: 200px;
  width: 100%;
  object-fit: cover;
 }
+
 .photo-card-trip h2 {
  font-size: 16px;
  font-weight: bold;
  margin: 0;
 }
+
 .photo-card-trip p {
  font-size: 12px;
  opacity: .7;
