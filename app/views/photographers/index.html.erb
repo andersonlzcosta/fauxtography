@@ -3,8 +3,10 @@
   <br>
   <div class="row">
     <div class="cards">
-        <% @photographers.each do |photographer| %>
-        <%= render 'photographers/card', photographer: photographer %>
+      <% @photographers.each do |photographer| %>
+        <%= link_to photographer_path(photographer) do %>
+          <%= render 'photographers/card', photographer: photographer %>
+        <% end %>
       <% end %>
     </div>
   </div>
