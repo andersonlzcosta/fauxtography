@@ -19,6 +19,7 @@ class BookingsController < ApplicationController
 
   def show
     @booking = Booking.find(params[:id])
+    @photographer = @booking.photographer
   end
 
   private
