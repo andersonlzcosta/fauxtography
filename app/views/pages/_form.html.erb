@@ -1,0 +1,20 @@
+<%= form_tag photographers_path, method: :get do %>
+  <div class="form-group">
+    <label for="location">Where?</label>
+    <%= text_field_tag :location,
+      params[:location],
+      class: "form-control",
+      placeholder: "Enter the city name"
+    %>
+  </div>
+  <div class="form-group">
+    <label for="style">Style?</label>
+    <%= text_field_tag :style,
+      params[:style],
+      class: "form-control",
+      placeholder: "What style do you want?"
+    %>
+  </div>
+  <br>
+  <%= submit_tag "Search", class: "btn btn-primary" %>
+<% end %>
