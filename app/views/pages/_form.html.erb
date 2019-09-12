@@ -1,9 +1,10 @@
 <%= form_tag photographers_path, method: :get do %>
+  <div class="form-row d-flex col-12" style="display: flex">
   <div class="form-group">
-    <label for="location">Where?</label>
+    <label for="style">Where?</label>
     <%= text_field_tag :location,
       params[:location],
-      class: "form-control",
+      class: "form-control col-md-12 mr-3 p-2",
       placeholder: "Enter the city name"
     %>
   </div>
@@ -11,10 +12,13 @@
     <label for="style">Style?</label>
     <%= text_field_tag :style,
       params[:style],
-      class: "form-control",
+      class: "form-control col-md-12 mr-3 p-2",
       placeholder: "What style do you want?"
     %>
   </div>
   <br>
-  <%= submit_tag "Search", class: "btn btn-primary" %>
+  <div>
+    <%= submit_tag "Search", class: "btn btn-primary" %>
+  </div>
+</div>
 <% end %>
