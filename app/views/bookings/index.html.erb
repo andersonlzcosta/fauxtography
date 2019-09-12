@@ -7,8 +7,8 @@
           <div class="notification">
             <img src='<%= booking.photographer.avatar %>' class="avatar-large col-2" />
             <div class="notification-content">
-              <p><%= booking.date %></p>
               <h2>Your booking is with <strong><%= booking.photographer.name %></strong> in <%= booking.photographer.location %>.</h2>
+              <p><strong><%= @booking.date.day %>-<%= @booking.date.month %>-<%= @booking.date.year %></strong><strong><%= @booking.date.strftime("%H:%M") %></strong></p>
             </div>
             <div class="notification-actions">
               <a href="#">Change <i class="fas fa-pencil-alt"></i></a>
