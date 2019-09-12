@@ -1,9 +1,7 @@
-
 <div class="container" style="min-height: 100%; height: 100%;">
-    <% @bookings.each do |booking| %>
-  <h1><strong> Here are your bookings, <%= current_user.name %>!</strong></h1>
-  <% raise %>
   <div class="row">
+  <h1><strong> Here are your bookings <%= @user.name %>!</strong></h1>
+    <% @bookings.each do |booking| %>
       <div class="col-12">
           <div class="notification">
           <img src='<%= booking.photographer.avatar %>' class="avatar-large col-2" />
