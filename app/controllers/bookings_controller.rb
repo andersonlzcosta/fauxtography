@@ -1,4 +1,10 @@
 class BookingsController < ApplicationController
+
+  def index
+    @user = current_user
+    @bookings = current_user.bookings
+  end
+
   def new
     @photographer = Photographer.find(params[:photographer_id])
     @booking = Booking.new

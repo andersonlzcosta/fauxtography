@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2019_09_12_180318) do
   create_table "bookings", force: :cascade do |t|
     t.integer "photographer_id"
     t.bigint "user_id"
-    t.datetime "date"
+    t.date "date"
     t.integer "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
