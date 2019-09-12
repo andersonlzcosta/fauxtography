@@ -8,11 +8,12 @@
 
       <p>You are booked for a photoshoot with <strong><%= @photographer.name %></strong></p>
       <p>On <strong><%= @booking.date %></strong></p>
+       <div class="confirmation-button">
+        <%= link_to "View Work", photographer_path(@photographer) %>
     </div>
+    </div>
+
   </div>
 
-  <div class="center">
-    <h3> Look at more of <%= link_to @photographer.name, photographer_path(@photographer) %>'s work </h3>
-  </div>
 </div>
 
