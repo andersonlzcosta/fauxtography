@@ -1,15 +1,13 @@
 <div class="show-banner" style="background-image: linear-gradient(to bottom right, rgba(0,0,0,0.8), rgba(0,0,0,0.3)),
   url(<%= @photographer.pictures[0] %>);">
 </div>
-<div class="banner-details-container">
-  <%= image_tag( @photographer.avatar, class: "show-profile" ) %>
-  <h1><%= @photographer.name %></h1>
-  <p><%= link_to "Go back to Fauxtographers", root_path, class: 'btn btn-primary' %>  <%= link_to "Book this Fauxtographer", new_photographer_booking_path(@photographer), class: 'btn btn-primary' %>
-   </p>
-</div>
 
 <div class="container">
+  <div class="banner-details-container">
+  </div>
   <div class="photographer-details">
+    <%= image_tag( @photographer.avatar, class: "show-profile" ) %>
+    <h1><%= @photographer.name %></h1>
     <h2><br><%= @photographer.location %></h2>
     <h2><br><%= @photographer.style %> </h2>
   </div>
