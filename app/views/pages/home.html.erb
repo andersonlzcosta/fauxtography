@@ -1,20 +1,22 @@
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/1858161/pexels-photo-1858161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);">
-  <div class="container d-flex align-items-center">
-    <div class="row">
-      <div class="card col-lg-6 col-md-12 col-sm-8 mx-5">
-        <div class="card-body">
-          <h5 class="card-title">Find some photographers</h5>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="banner-text col-6 col-lg-6">
+        <h1>FAUXTOGRAPHY</h1>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="card col-12 col-lg-9">
+        <div class="card-body col-12">
+          <h5 class="card-title">Find a fauxtographer</h5>
           <%= render 'form' %>
         </div>
-      </div>
-      <div class="banner-text col-lg-4 col-md-12 col-sm-12 my-5">
-        <h1>FAUXTOGRAPHY</h1>
       </div>
     </div>
   </div>
 </div>
   <div class="container">
-    <h2 class="homepage-message">We have photographers all over... check some!</h2>
+    <h2 class="homepage-message">Explore Fauxtographers</h2>
     <div class="cards">
       <% @photographers.each do |photographer| %>
         <%= link_to photographer_path(photographer) do %>
