@@ -3,7 +3,7 @@ class CreateBookings < ActiveRecord::Migration[5.2]
     create_table :bookings do |t|
       t.integer :photographer_id
       t.references :user, foreign_key: true
-      t.date :date
+      t.datetime :date
       t.integer :price
 
       t.timestamps

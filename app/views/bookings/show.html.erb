@@ -6,11 +6,15 @@
       <p> Are you as excited as her 👆 </p>
 
       <p>You are booked for a photoshoot with <strong><%= @photographer.name %></strong></p>
-      <p>On <strong><%= @booking.date %></strong></p>
+      <p>On <strong><%= @booking.date.day %>-<%= @booking.date.month %>-<%= @booking.date.year %></strong></p>
+      <p>At <strong><%= @booking.date.strftime("%H:%M") %></strong></p>
 
         <%= link_to "View Work", photographer_path(@photographer), class: 'confirmation-button link-to-text-color' %>
 
     </div>
   </div>
 </div>
+
+
+
 
