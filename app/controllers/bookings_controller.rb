@@ -2,8 +2,7 @@ class BookingsController < ApplicationController
 
   def index
     @user = current_user
-    @bookings = Booking.all(booking_params)
-    redirect_to photographer_path(photographers)
+    @bookings = current_user.bookings
   end
 
   def new
