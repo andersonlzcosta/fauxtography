@@ -4,4 +4,3 @@ class Booking < ApplicationRecord
   validates :date, presence: true
 end
 
-
