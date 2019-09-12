@@ -1,5 +1,4 @@
 <div>
-
   <div class="confirmation center">
     <div class="confirmation-content center">
       <img src="https://media.giphy.com/media/l4HodBpDmoMA5p9bG/giphy.gif" alt="">
@@ -8,12 +7,10 @@
 
       <p>You are booked for a photoshoot with <strong><%= @photographer.name %></strong></p>
       <p>On <strong><%= @booking.date %></strong></p>
-       <div class="confirmation-button">
-        <%= link_to "View Work", photographer_path(@photographer) %>
-      </div>
+
+        <%= link_to "View Work", photographer_path(@photographer), class: 'confirmation-button link-to-text-color' %>
+
     </div>
-
   </div>
-
 </div>
 
