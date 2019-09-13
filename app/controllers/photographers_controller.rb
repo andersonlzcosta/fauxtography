@@ -8,6 +8,11 @@ class PhotographersController < ApplicationController
 
   def show
     @photographer = Photographer.find(params[:id])
+    @markers = [{
+        lat: @photographer.latitude,
+        lng: @photographer.longitude,
+        infoWindow: render_to_string(partial: "info_window", locals: { photographer: @photographer })
+    }]
     @booking = Booking.new
   end
 end

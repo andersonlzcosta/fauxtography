@@ -6,7 +6,7 @@
 }
 
 .banner .container {
-  height: 100vh;
+  height: 70vh;
 
 }
 
@@ -16,7 +16,7 @@
   text-align: center;
 }
 
-.container .row {
+.container .row-1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,8 +34,14 @@
 
 }
 
-.form-group{
+.form-group-1{
   width: 50%;
   padding: 10px;
 }
+
+#h2-large{
+  font-size: 40px;
+}
+
+
 
