@@ -1,7 +1,7 @@
 <div class="form-wrapper" style="width: 400px; margin: 0 auto;">
   <%= simple_form_for [@photographer, @booking] do |f| %>
     <%= f.input :date, as: :string, required: true,
-                label: false, input_html: {class: "datepicker"},
+                label: false, input_html: {class: "datepicker booking-input"},
                 placeholder: 'dd/mm/yy' %>
 
     <%= f.button :submit, "Book This Fauxtographer", class: "btn btn-primary" %>
