@@ -24,11 +24,6 @@
   background-position: top;
 }
 
-.show-profile {
-  width: 100px;
-  height: 100px;
-}
-
 .show-banner p {
   font-size: 20px;
   color: white;
@@ -37,8 +32,13 @@
 }
 
 .photographer-details {
-  display: flex;
+  display: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 48px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   justify-content: space-around;
-  padding: 30px 0;
+  padding: 10px auto 30px;
   border-bottom: 1px solid #c2c5cc;
+  margin-bottom: 40px;
 }

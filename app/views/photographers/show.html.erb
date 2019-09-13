@@ -3,25 +3,8 @@
 </div>
 
 <div class="container">
-  <div class="banner-details-container">
-  </div>
-  <div class="photographer-details">
-    <%= image_tag( @photographer.avatar, class: "show-profile" ) %>
-    <h1><%= @photographer.name %></h1>
-    <h2><br><%= @photographer.location %></h2>
-    <h2><br><%= @photographer.style %> </h2>
-  </div>
-
-  <div class="card col-lg-6 col-md-12 col-sm-8 mx-5">
-    <div class="card-body">
-      <h5 class="card-title">Select date and time</h5>
-        <h2><strong>Hour rate:</strong>
-        <br>$<%= @photographer.price_rate %></h2>
-        <h2><strong>Included:</strong>
-        <br>15 edited photos</h2>
-      <%= render 'booking-form' %>
-    </div>
-  </div>
+  <%= render 'show-profile' %>
+  <%= render 'show-booking' %>
 
   <div id="photo-card-container">
     <h3> Photos(<%= @photographer.pictures.count %>)</h3>
