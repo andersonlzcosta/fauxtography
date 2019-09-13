@@ -32,14 +32,16 @@
 }
 
 .photographer-details {
-  display: relative;
-  width: 300px;
-  height: 300px;
-  margin-left: 48px;
+  display: flex;
+  // width: 300px;
+  // height: 300px;
+  margin: 48px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px auto 30px;
   border-bottom: 1px solid #c2c5cc;
   margin-bottom: 40px;
-  grid-column: 2;
+  grid-column: 1 / 4;
+  grid-row: 1;
 }
