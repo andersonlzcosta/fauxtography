@@ -8,28 +8,11 @@ class PhotographersController < ApplicationController
 
   def show
     @photographer = Photographer.find(params[:id])
-     #returns flats with coordinates
     @markers = [{
         lat: @photographer.latitude,
         lng: @photographer.longitude,
         infoWindow: render_to_string(partial: "info_window", locals: { photographer: @photographer })
-      }]
-
+    }]
     @booking = Booking.new
   end
 end
-
-
-
-
-
-
-
-    #     @photographers = Photographer.geocoded
-    # @markers = @photographers.map do |photographer|
-    #   {
-    #     lat: photographer.latitude,
-    #     lng: photographer.longitude,
-    #     infoWindow: render_to_string(partial: "info_window", locals: { photographer: photographer })
-    #   }
-    # end
