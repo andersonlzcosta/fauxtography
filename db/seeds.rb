@@ -207,4 +207,7 @@ photographers_attributes = [
     pictures: ["https://i.pinimg.com/474x/c4/ee/48/c4ee484f91fcfa2de4afad6ace3e9b83.jpg","https://images.unsplash.com/photo-1535414188094-f1cfdbbccb6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80", "https://images.unsplash.com/photo-1536847199668-cd3e160d9d94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1536847421400-630a92bb7a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1531563154281-041ebe947157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1507023884736-cda0889ad894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"],
   }
 ]
+puts "........"
 Photographer.create!(photographers_attributes)
+puts "creating....."
+
