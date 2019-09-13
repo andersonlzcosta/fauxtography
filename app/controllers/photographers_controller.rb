@@ -9,7 +9,8 @@ class PhotographersController < ApplicationController
     @markers = @photographers.map do |photographer|
       {
         lat: photographer.latitude,
-        lng: photographer.longitude
+        lng: photographer.longitude,
+        infoWindow: render_to_string(partial: "info_window", locals: { photographer: photographer })
       }
     end
   end
