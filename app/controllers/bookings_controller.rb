@@ -1,4 +1,10 @@
 class BookingsController < ApplicationController
+
+  def index
+    @user = current_user
+    @bookings = current_user.bookings
+  end
+
   def new
     @photographer = Photographer.find(params[:photographer_id])
     @booking = Booking.new
@@ -25,6 +31,6 @@ class BookingsController < ApplicationController
   private
 
   def booking_params
-    params.require(:booking).permit(:date, :user_id)
+    params.require(:booking).permit(:date, :user_id, :time)
   end
 end
