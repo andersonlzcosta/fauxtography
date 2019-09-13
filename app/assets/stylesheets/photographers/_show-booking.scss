@@ -1,0 +1,12 @@
+.show-booking {
+  width: 100%;
+  grid-column: 4;
+  margin-top: 45px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 80px;
+}
+
+.booking-input {
+  width: 210px;
+}

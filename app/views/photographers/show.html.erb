@@ -1,31 +1,21 @@
 <div class="show-banner" style="background-image: linear-gradient(to bottom right, rgba(0,0,0,0.8), rgba(0,0,0,0.3)),
   url(<%= @photographer.pictures[0] %>);">
-  <div class="banner-details-container">
-    <h1><%= @photographer.name %></h1>
-    <p><%= link_to "Go back to Fauxtographers", root_path, class: 'btn btn-primary' %>  <%= link_to "Book this Fauxtographer", new_photographer_booking_path(@photographer), class: 'btn btn-primary' %>
-     </p>
+</div>
+
+<div class="container photographer-show">
+  <%= render 'show-profile' %>
+  <%= render 'show-booking' %>
+
+  <div id="photo-card-container">
+    <h3> Photos(<%= @photographer.pictures.count %>)</h3>
+      <div class="photo-cards">
+        <% @photographer.pictures.each do |picture|%>
+          <%= render 'photo-card', picture: picture %>
+        <% end %>
+      </div>
   </div>
 </div>
 
 <div class="container">
-  <div class="photographer-details">
-    <h2><strong>Location</strong><br><%= @photographer.location %></h2>
-    <h2><strong>Price</strong><br>$<%= @photographer.price_rate %> per 15 edited photos</h2>
-    <h2><strong>Style</strong><br><%= @photographer.style %> </h2>
-
-  </div>
-  <div id="photo-card-container">
-    <h3> Photos(<%= @photographer.pictures.count %>)</h3>
-      <div class="photo-cards">
-
-        <% @photographer.pictures.each do |picture|%>
-        <%= render 'photo-card', picture: picture %>
-        <% end %>
-      </div>
-  </div>
-
-  <div class="booking-form-show">
-    <%= render 'booking-form' %>
-  </div>
-    <%= render 'map-show' %>
+  <%= render 'map-show' %>
 </div>

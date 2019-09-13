@@ -1,8 +1,5 @@
-<div>
+<div class="container">
   <h3>Add a booking</h3>
-  <%= simple_form_for [@photographer, @booking] do |f| %>
-    <%= f.input :date %>
-    <%= f.button :submit, class: "btn btn-large btn-primary", "data-disable-with" => "Submitting.." %>
-  <% end %>
+  <%= render '/photographers/booking-form' %>
 </div>
 
