@@ -1,0 +1,20 @@
+.profile-avatar {
+  height: 100%;
+  // width: 100%;
+}
+
+.profile-text {
+  top: 30px;
+  padding: 10px 50px 10px;
+  margin-right: 30px;
+}
+
+.text-line {
+  display: flex;
+  margin: 30px;
+  align-items: baseline;
+
+  h4 {
+    margin-left: 8px;
+  }
+}
