@@ -1,6 +1,8 @@
 .show-booking {
   width: 100%;
   grid-column: 4;
-  margin-top: 30px;
+  margin-top: 60px;
+  position: -webkit-sticky; /* Safari */
   position: sticky;
+  top: 0;
 }
