@@ -10,8 +10,7 @@
     <%= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
   <body style="overflow: auto; height: 100vh;">
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <%= render 'shared/flashes'  %>
     <%= render 'layouts/navbar'  %>
     <%= yield %>
     <%= render 'pages/footer'  %>
