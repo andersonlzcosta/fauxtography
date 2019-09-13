@@ -32,6 +32,8 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+MAPBOX_API_KEY=pk.eyJ1IjoiYnJpdHRsZXR0ZSIsImEiOiJjanpvaWZqdzUwYmt0M2xucDF6MmJ6dHFzIn0.GrXGxtt5UoeRfD9CFMaImQ
+
 
 # Ignore .env file containing credentials.
 .env*

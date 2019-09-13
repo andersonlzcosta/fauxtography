@@ -54,6 +54,8 @@ Rails.application.configure do
 
   # Suppress logger output for asset requests.
   config.assets.quiet = true
+  MAPBOX_API_KEY = pk.eyJ1IjoiYnJpdHRsZXR0ZSIsImEiOiJjanpvaWZqdzUwYmt0M2xucDF6MmJ6dHFzIn0.GrXGxtt5UoeRfD9CFMaImQ
+
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
